@@ -1,0 +1,45 @@
+
+# Level 1
+# football field
+
+START_LEVEL
+level_name:Hala Madrid!
+ball_velocities:45,5 135,5 90,5
+background:image(background_images/sb.jpg)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/real_madrid_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:30
+num_blocks:23
+START_BLOCKS
+-bbb--bbb--bbb-
+-b----b-b----b-
+-b----bb----b--
+-bbb--b-b--b---
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# BIBI
+
+START_LEVEL
+level_name:Only Bibi!
+ball_velocities:45,5 135,5 90,5
+background:image(background_images/BIBI.jpg)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/bibi_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:42
+START_BLOCKS
+-z--z-z-z---z-zzzz
+-z-z--z-zz--z-z---
+-zz---z-z-z-z-z-zz
+-z-z--z-z--zz-z--z
+-z--z-z-z---z-zzzz
+END_BLOCKS
+END_LEVEL
